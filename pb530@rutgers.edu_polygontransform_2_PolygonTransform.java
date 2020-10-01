@@ -17,7 +17,7 @@ public class PolygonTransform {
             copy[i] = array[i];
         }
         return copy;
-	// WRITE YOUR CODE HERE
+	
     }
     
     // Scales the given polygon by the factor alpha. 
@@ -26,7 +26,7 @@ public class PolygonTransform {
             x[i] = x[i] * alpha;
             y[i] = y[i] * alpha;
         }
-	// WRITE YOUR CODE HERE
+	
     }
     
     // Translates the given polygon by (dx, dy). 
@@ -35,7 +35,7 @@ public class PolygonTransform {
             x[i] = x[i] + dx;
             y[i] = y[i] + dy;
         }
-	// WRITE YOUR CODE HERE
+	
     }
     
     // Rotates the given polygon theta degrees counterclockwise, about the origin. 
@@ -47,7 +47,7 @@ public class PolygonTransform {
             x[i] = copyOfX[i]*Math.cos(radians)-copyOfY[i]*Math.sin(radians);
             y[i] = copyOfY[i]*Math.cos(radians)+copyOfX[i]*Math.sin(radians);
         }
-	// WRITE YOUR CODE HERE
+	
     }
 
     // Tests each of the API methods by directly calling them. 
@@ -67,6 +67,6 @@ public class PolygonTransform {
     StdDraw.polygon(x, y);
 
 
-	// WRITE YOUR CODE HERE
+	
     }
 }
